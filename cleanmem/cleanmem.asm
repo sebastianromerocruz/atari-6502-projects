@@ -24,10 +24,11 @@ Start:
 
     lda #0          ; A = 0
     ldx #$FF        ; X = #$FF
+    sta $FF         ; make sure $FF is zeroed before the loop starts
 
 MemLoop:
-    sta $0,X        ; Store the value of A inside memory address ($0 + X) i.e. $0 + #$FF -> $0 + #$FE $0 + #$FD -> etc.
     dex             ; X--
+    sta $0,X        ; Store the value of A inside memory address ($0 + X) i.e. $0 + #$FF -> $0 + #$FE -> etc.
     bne MemLoop     ; Until X reaches zero, GoTo MemLoop (until z-flag is set)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
