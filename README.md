@@ -14,4 +14,5 @@ Some 6502 (or 6507, technically) Assembly Projects based on [**Gustavo Pezzi's**
 - [**DASM**](https://dasm-assembler.github.io/) **Command**: `dasm [assemblyfile.asm] -f3 -v0 -o[cartfilename.bin]`
     - `f3`: Denotes output format
     - `v0`: Denotes verboseness level; `0` only displays **errors**
-- [**Manuals and Textbooks**](texts/)
+- [**Manuals and Textbooks**](assets/texts/)
+- [**Helper Files**](assets/helper-files/)
