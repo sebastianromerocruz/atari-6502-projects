@@ -11,3 +11,5 @@
 7. [**Exercise 7**](asm-files/exerciseseven.asm): Increment and decrement using zero-page addressing mode.
 8. [**Exercise 8**](asm-files/exerciseeight.asm): Loop that counts down from 10 to 0.
 9. [**Exercise 9**](asm-files/exercisenine.asm): A simple loop that goes from 1 to 10 using the `CMP` instruction.
+
+<sub>[**Official Solutions**](assets/Exercises-Solutions.pdf)</sub>

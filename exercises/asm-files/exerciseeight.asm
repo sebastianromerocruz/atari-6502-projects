@@ -14,7 +14,7 @@ Loop:
     TYA                 ; Transfer Y to A
     STA $80,Y           ; Store the value in A inside memory position $80+Y 
     DEY                 ; Decrement Y
-    BNE Loop            ; Branch back to "Loop" until we are done
+    BPL Loop            ; Branch if plus (only if result of last instruction was positive)
 
     org $FFFC
     .word Start
