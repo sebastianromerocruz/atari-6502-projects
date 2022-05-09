@@ -1,7 +1,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-; Exercise 5: The ADC and SBC instructions can also be used with different addressing modes. The above exercise used 
-;             ADC with immediate mode (adding a literal value directly into the accumulator), but we can also ask ADC 
-;             to add a value from a (zero page) memory position into the accumulator.
+;; Exercise 5: The ADC and SBC instructions can also be used with different addressing modes. The above exercise used 
+;;             ADC with immediate mode (adding a literal value directly into the accumulator), but we can also ask ADC 
+;;             to add a value from a (zero page) memory position into the accumulator.
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
     processor 6502

@@ -1,9 +1,9 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-; Exercise 7: This exercise covers the increment and decrement using zero-page addressing mode. The zero-page 
-;             addressing mode helps us directly increment and decrement values inside memory positions. The “zero page”
-;             in the 6502 are addresses between 0 and 255. These addresses are special for the 6502 processor because 
-;             we can store them using only 1 byte (8 bits), which also means they can be performed relatively fast by 
-;             the CPU.
+;; Exercise 7: This exercise covers the increment and decrement using zero-page addressing mode. The zero-page 
+;;             addressing mode helps us directly increment and decrement values inside memory positions. The “zero page”
+;;             in the 6502 are addresses between 0 and 255. These addresses are special for the 6502 processor because 
+;;             we can store them using only 1 byte (8 bits), which also means they can be performed relatively fast by 
+;;             the CPU.
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
     processor 6502

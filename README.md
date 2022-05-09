@@ -6,6 +6,7 @@ Some 6502 (or 6507, technically) Assembly Projects based on [**Gustavo Pezzi's**
 
 1. [**Clean Memory**](cleanmem/)
 2. [**Instruction Set Exercises**](exercises/)
+3. [**Colour Background Screen**](colourbg/)
 
 ### Resources
 
@@ -16,3 +17,4 @@ Some 6502 (or 6507, technically) Assembly Projects based on [**Gustavo Pezzi's**
     - `v0`: Denotes verboseness level; `0` only displays **errors**
 - [**Manuals and Textbooks**](assets/texts/)
 - [**Helper Files**](assets/helper-files/)
+- [**Colour Palette**](https://en.wikipedia.org/wiki/List_of_video_game_console_palettes#NTSC)

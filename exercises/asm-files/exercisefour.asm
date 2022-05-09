@@ -1,7 +1,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-; Exercise 4: This exercise is about adding and subtracting values. Adding and subtracting are math operations that 
-;             are done by the processor ALU (arithmetic-logic-unit). Since the ALU can only manipulate values from the
-;             (A)ccumulator, all these additions and subtractions must be performed with the values in the A register.
+;; Exercise 4: This exercise is about adding and subtracting values. Adding and subtracting are math operations that 
+;;             are done by the processor ALU (arithmetic-logic-unit). Since the ALU can only manipulate values from the
+;;             (A)ccumulator, all these additions and subtractions must be performed with the values in the A register.
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
     processor 6502
