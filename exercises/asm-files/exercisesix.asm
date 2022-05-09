@@ -8,7 +8,6 @@
     
 
 Start:
-
     CLC         ; Clear carry for increamenting the accumulator without it
     LDA #1      ; Load the A register with the decimal value 1
     LDX #2      ; Load the X register with the decimal value 2
