@@ -9,3 +9,7 @@ START:
 
     JMP START           ; Repeat from START
 ```
+
+![colourbg](assets/colourbg.png)
+
+<sub>**Figure 1**: The resulting screen.</sub>
