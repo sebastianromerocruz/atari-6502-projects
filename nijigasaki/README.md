@@ -1,4 +1,4 @@
-# [**_Nijigasaki_: Rainbow Background Screen**](rainbow.asm)
+# [**_Nijigasaki_: Rainbow Background Screen**](nijigasaki.asm)
 
 ![nijigasaki](assets/nijigasaki.png)
 
